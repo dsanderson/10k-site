@@ -1,59 +1,49 @@
-/*
- * Globals
- */
-
-/* Links */
-a,
-a:focus,
-a:hover {
-  color: #fff;
+div.header.image {
+  max-height: 200px;
 }
 
-
-/*
- * Base structure
- */
-
-html,
-body {
-  height: 100%;
-  background-color: #333;
-  /*background-color: #000;
-  opacity:0.6;
-  filter:alpha(opacity=60);*/ /* For IE8 and earlier */
+img.header.image.logo {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   height:inherit;
+   max-height: inherit;
 }
-body {
-  color: #fff;
+
+ul.header {
   text-align: center;
-  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  margin-top: 4px;
+  margin-bottom: 4px;
 }
 
-.vcenter {
-    display: flex;
-    align-items: center;
+ul.header li {
+    display:inline;
 }
 
-.bcenter {
-  display: flex;
-  align-items: baseline;
-}
-
-.main-wrapper {
-
-}
-
-.main {
-
-}
-
-.heading {
-
+hr.header {
+  padding: 1px;
+  border-top: 1px;
+  background-color: 333;
+  margin-top: 1px;
+  margin-bottom: 1px;
 }
 
 .content {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  max-width: 600px;
+}
+
+h1.content {
+  text-align: justify;
+}
+
+.content .small {
 
 }
 
-.footer {
+button {
 
 }

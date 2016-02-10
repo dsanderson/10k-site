@@ -1,5 +1,5 @@
 body {
-  background-image: url("../img/bg-circles.png");
+  background-image: url("../img/bg-hex.png");
   background-repeat: repeat;
   /*font-family: 'Roboto Slab', serif;*/
   font-family: 'Robot', sans-serif;
@@ -109,9 +109,9 @@ h1.content {
 }
 
 a.app-button {
-  -webkit-appearance: button;
+  /*-webkit-appearance: button;
   -moz-appearance: button;
-  appearance: button;
+  appearance: button;*/
   text-decoration: none;
   display: block;
   margin-left: auto;

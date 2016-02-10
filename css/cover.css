@@ -1,7 +1,8 @@
 body {
   background-image: url("../img/bg-circles.png");
   background-repeat: repeat;
-  font-family: 'Roboto Slab', serif;
+  /*font-family: 'Roboto Slab', serif;*/
+  font-family: 'Robot', sans-serif;
   margin: 0px;
 }
 
@@ -43,8 +44,8 @@ hr {
   padding: 1px;
   border-top: 1px;
   background-color: 333;
-  margin-top: 1px;
-  margin-bottom: 1px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .header.nav.list > li > a {
@@ -76,8 +77,24 @@ hr {
   background-color: #FFF;
 }
 
+div.content {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 h1.content {
   /*text-align: justify;*/
+  font-family: "Roboto",sans-serif;
+  font-size: 2.5em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 300;
+  padding-top: 20px;
+}
+
+.content > h1 {
   font-family: "Roboto",sans-serif;
   font-size: 2.5em;
   margin-bottom: 0px;
@@ -118,9 +135,9 @@ a.app-button {
 }
 
 a.app-button:hover {
-  -webkit-appearance: button;
+/*  -webkit-appearance: button;
   -moz-appearance: button;
-  appearance: button;
+  appearance: button; */
   text-decoration: none;
   display: block;
   margin-left: auto;
@@ -172,4 +189,9 @@ a.app-button > span {
 
 .content.small.timeline > ul {
   list-style-type: none;
+}
+
+.content.supporters {
+  margin-bottom: 0px;
+  padding-bottom: 10px;
 }

@@ -18,6 +18,11 @@ div.header.image {
 div.header {
   background-color: #FFF;
   width: 100%;
+  /*box-shadow: 2px 5px 5px black;*/
+}
+
+div.header.shadow {
+  box-shadow: 2px 2px 5px black;
 }
 
 img.header.image.logo {
@@ -60,12 +65,16 @@ hr {
 
 .content-wrapper {
   margin: 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   padding: 0px;
   display: block;
   max-width: 700px;
   margin-left: auto;
   margin-right: auto;
   background-color: #FFF;
+  box-shadow: 2px 2px 5px black;
+  z-index: -1;
 }
 
 .content {
@@ -106,6 +115,10 @@ h1.content {
 .content.small {
   margin-top: 10px;
   margin-bottom: 15px;
+}
+
+div.apply {
+  padding-top: 10px;
 }
 
 a.app-button {
